@@ -1,0 +1,4054 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 25, 2022 11:03:45 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Login</p>
+            <p class="text-sm">
+              <span>23.03.48</span> / <span>00:00:07:697</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Modul Login</h5>
+<span class='badge badge-success'>01.25.2022 23.03.48</span>
+<span class='badge badge-danger'>01.25.2022 23.03.56</span>
+<span class='badge badge-default'>00:00:07:697</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.03.51</td>
+        <td>
+          User membuka url https://dev.ptdika.com/mobilesales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.03.51</td>
+        <td>
+          User berhasil klik username dan mengisi teks username
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.03.51</td>
+        <td>
+          User berhasil klik password dan mengisi teks password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.03.56</td>
+        <td>
+          User SuperAdmin klik button Submit dan berhasil login ke Website
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Login</p>
+            <p class="text-sm">
+              <span>23.03.57</span> / <span>00:00:03:849</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Modul Login</h5>
+<span class='badge badge-success'>01.25.2022 23.03.57</span>
+<span class='badge badge-danger'>01.25.2022 23.04.01</span>
+<span class='badge badge-default'>00:00:03:849</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.03.58</td>
+        <td>
+          User berhasil klik username dan mengisi teks username
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.03.58</td>
+        <td>
+          User berhasil klik password dan mengisi teks password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.01</td>
+        <td>
+          User Supervisor klik button Submit dan berhasil login ke Website
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Login</p>
+            <p class="text-sm">
+              <span>23.04.01</span> / <span>00:00:03:849</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Modul Login</h5>
+<span class='badge badge-success'>01.25.2022 23.04.01</span>
+<span class='badge badge-danger'>01.25.2022 23.04.04</span>
+<span class='badge badge-default'>00:00:03:849</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.02</td>
+        <td>
+          User berhasil klik username dan mengisi teks username
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.02</td>
+        <td>
+          User berhasil klik password dan mengisi teks password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.04</td>
+        <td>
+          User Mobile Sales klik button Submit dan berhasil login ke Website
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Master User</p>
+            <p class="text-sm">
+              <span>23.04.05</span> / <span>00:00:45:649</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Modul Master User</h5>
+<span class='badge badge-success'>01.25.2022 23.04.05</span>
+<span class='badge badge-danger'>01.25.2022 23.04.50</span>
+<span class='badge badge-default'>00:00:45:649</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.11</td>
+        <td>
+          User berhasil klik Master dan menampilkan submenu di menu Master
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.11</td>
+        <td>
+          User berhasil klik User dan menampilkan data User
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.11</td>
+        <td>
+          User berhasil klik button Add New User dan menampilkan form tambah User
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.11</td>
+        <td>
+          User berhasil menampilkan User Name di master user
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.11</td>
+        <td>
+          User berhasil menampilkan Name di master user
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.11</td>
+        <td>
+          User berhasil menampilkan Email di master user
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.11</td>
+        <td>
+          User berhasil menampilkan Picture di master user
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.11</td>
+        <td>
+          User berhasil menampilkan Position di master user
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.11</td>
+        <td>
+          User berhasil menampilkan Status di master user
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.11</td>
+        <td>
+          User berhasil menampilkan Created By di master user
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Operation dan menampilkan popup operation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik search dan mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Pilih pada popup dan menampilkan data user operation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Sales dan menampilkan popup sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik search dan mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Pilih pada popup dan menampilkan data user sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik nik / sales code dan mengisi nik / sales code
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil mengisi name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil memilih kategori
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil mengisi User name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil mengisi password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil mengisi email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil memilih direktori gambar
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil memilih status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Back dan kembali ke halaman sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Submit dan berhasil membuat akun
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik ikon jumlah data dan memilih jumlah data yang ditampilkan dalam satu halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Nomor pada judul tabel dan menampilkan data sesuai sort nomor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button User name pada judul tabel dan menampilkan data sesuai sort User name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Name pada judul tabel dan menampilkan data sesuai sort name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Email pada judul tabel dan menampilkan data sesuai sort email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Picture pada judul tabel dan menampilkan data sesuai sort picture
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Position pada judul tabel dan menampilkan data sesuai sort position
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Status pada judul tabel dan menampilkan data sesuai sort status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.44</td>
+        <td>
+          User berhasil klik button Created By pada judul tabel dan menampilkan data sesuai sort created by
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.45</td>
+        <td>
+          User berhasil klik button edit pada tabel dan menampilkan form edit Users
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.45</td>
+        <td>
+          User berhasil klik kategori dan memilih kategori
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.45</td>
+        <td>
+          User berhasil mengisi User name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.45</td>
+        <td>
+          User berhasil mengisi name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.45</td>
+        <td>
+          User berhasil mengisi email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.45</td>
+        <td>
+          User berhasil memilih direktori gambar
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.45</td>
+        <td>
+          User berhasil memilih status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>23.04.47</td>
+        <td>
+          User gagal melakukan edit data setelah klik tombol Submit dengan screenshot dibawah
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_04_47_351.png' src="D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_04_47_351.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.49</td>
+        <td>
+          User berhasil klik button back dan kembali ke halaman sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.49</td>
+        <td>
+          User berhasil mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.50</td>
+        <td>
+          User berhasil klik button hapus pada tabel dan berhasil melakukan delete akun user
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.50</td>
+        <td>
+          User berhasil klik ikon Next dan menampilkan data User selanjutnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.50</td>
+        <td>
+          User berhasil klik ikon Previous dan menampilkan data User sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.50</td>
+        <td>
+          User berhasil klik ikon halaman dan memilih nomor halaman data user  sesuai nomor halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.50</td>
+        <td>
+          User berhasil klik button UP dan melakukan scroll ke bagian paling atas halaman
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Master Parameter Upload</p>
+            <p class="text-sm">
+              <span>23.04.50</span> / <span>00:00:28:006</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Modul Master Parameter Upload</h5>
+<span class='badge badge-success'>01.25.2022 23.04.50</span>
+<span class='badge badge-danger'>01.25.2022 23.05.18</span>
+<span class='badge badge-default'>00:00:28:006</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.52</td>
+        <td>
+          User berhasil klik Parameter Upload dan menampilkan data parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.04.52</td>
+        <td>
+          User berhasil klik button add new dan menampilkan form tambah parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil klik button sales dan menampilkan popup sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil klik button pilih pada popup dan menampilkan data User operation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil mengisi nik / sales code
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil mengisi name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil mengisi position
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil mengisi branch
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil mengisi area
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil klik button Submit dan berhasil membuat Data Pamameter Upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil menampilkan Nik / Sales Code di master parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil menampilkan Nama di master parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil menampilkan Position di master parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil menampilkan Branch di master parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil menampilkan Area di master parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.09</td>
+        <td>
+          User berhasil menampilkan Status di master parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>23.05.11</td>
+        <td>
+          Tombol Back pada form Add Parameter Upload error karena direct ke halaman Master User dengan screenshot dibawah
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_05_11_610.png' src="D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_05_11_610.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.11</td>
+        <td>
+          User berhasil klik ikon jumlah data dan memilih jumlah data yang ditampilkan dalam satu halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.11</td>
+        <td>
+          User berhasil klik button Nomor pada judul tabel dan menampilkan data sesuai sort nomor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.11</td>
+        <td>
+          User berhasil klik button Nik/sales code pada judul tabel dan menampilkan data sesuai sort nik/sales code
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.11</td>
+        <td>
+          User berhasil klik button Nama pada judul tabel dan menampilkan data sesuai sort nama
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.11</td>
+        <td>
+          User berhasil klik button Position pada judul tabel dan menampilkan data sesuai sort position
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.11</td>
+        <td>
+          User berhasil klik button Branch pada judul tabel dan menampilkan data sesuai sort branch
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.11</td>
+        <td>
+          User berhasil klik button Area pada judul tabel dan menampilkan data sesuai sort area
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.11</td>
+        <td>
+          User berhasil klik button Status pada judul tabel dan menampilkan data sesuai sort status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.12</td>
+        <td>
+          User berhasil klik button edit pada tabel dan menampilkan form edit parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.12</td>
+        <td>
+          User berhasil menampilkan Nik / Sales Code di form edit parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.12</td>
+        <td>
+          User berhasil menampilkan Name di form edit parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.12</td>
+        <td>
+          User berhasil menampilkan Position di form edit parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.12</td>
+        <td>
+          User berhasil menampilkan Branch di form edit parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.12</td>
+        <td>
+          User berhasil menampilkan Area di form edit parameter upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.12</td>
+        <td>
+          User berhasil klik status dan memilih status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.14</td>
+        <td>
+          User berhasil klik button Submit dan menyimpan hasil edit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>23.05.16</td>
+        <td>
+          Tombol Back pada form Edit error karena direct ke halaman Master User dengan screenshot dibawah
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_05_16_074.png' src="D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_05_16_074.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.18</td>
+        <td>
+          User berhasil klik ikon Next dan menampilkan data parameter upload selanjutnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.18</td>
+        <td>
+          User berhasil klik ikon Previous dan menampilkan data parameter upload sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.18</td>
+        <td>
+          User berhasil klik ikon halaman dan memilih nomor halaman data parameter upload sesuai nomor halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.18</td>
+        <td>
+          User berhasil klik button UP dan melakukan scroll ke bagian paling atas halaman
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Master Poster</p>
+            <p class="text-sm">
+              <span>23.05.19</span> / <span>00:00:08:486</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Modul Master Poster</h5>
+<span class='badge badge-success'>01.25.2022 23.05.19</span>
+<span class='badge badge-danger'>01.25.2022 23.05.27</span>
+<span class='badge badge-default'>00:00:08:486</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.21</td>
+        <td>
+          User berhasil klik Poster dan menampilkan data setup poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.21</td>
+        <td>
+          User berhasil klik button upload poster dan menampilkan form upload poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.22</td>
+        <td>
+          User berhasil mengisi program name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.22</td>
+        <td>
+          User berhasil memilih direktori gambar
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.23</td>
+        <td>
+          User berhasil klik button Submit dan berhasil membuat Poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.23</td>
+        <td>
+          User berhasil klik button cancel dan kembali ke halaman sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.23</td>
+        <td>
+          User berhasil menampilkan Program Name di master poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.23</td>
+        <td>
+          User berhasil menampilkan Poster di master poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.23</td>
+        <td>
+          User berhasil menampilkan Status di master poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.24</td>
+        <td>
+          User berhasil klik button edit poster pada tabel dan menampilkan form setup poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.24</td>
+        <td>
+          User berhasil klik is active dan memilih status aktif atau tidaknya poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.25</td>
+        <td>
+          User berhasil klik button submit dan berhasil melakukan edit poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.25</td>
+        <td>
+          User berhasil klik button cancel dan kembali ke halaman sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.27</td>
+        <td>
+          User berhasil klik ikon jumlah data dan memilih jumlah data yang ditampilkan dalam satu halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.27</td>
+        <td>
+          User berhasil mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.27</td>
+        <td>
+          User berhasil klik ikon Delete dan berhasil melakukan delete poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.27</td>
+        <td>
+          User berhasil klik button Program Name pada judul tabel dan menampilkan data sesuai sort program name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.27</td>
+        <td>
+          User berhasil klik button Poster pada judul tabel dan menampilkan data sesuai sort poster
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.27</td>
+        <td>
+          User berhasil klik button Status pada judul tabel dan menampilkan data sesuai sort status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.27</td>
+        <td>
+          User berhasil klik ikon Next dan menampilkan data poster selanjutnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.27</td>
+        <td>
+          User berhasil klik ikon Previous dan menampilkan data poster sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.27</td>
+        <td>
+          User berhasil klik ikon halaman dan memilih nomor halaman data poster sesuai nomor halaman
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Upload File MS</p>
+            <p class="text-sm">
+              <span>23.05.27</span> / <span>00:00:47:808</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Modul Upload File MS</h5>
+<span class='badge badge-success'>01.25.2022 23.05.27</span>
+<span class='badge badge-danger'>01.25.2022 23.06.15</span>
+<span class='badge badge-default'>00:00:47:808</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.28</td>
+        <td>
+          User berhasil klik menu Upload File MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.28</td>
+        <td>
+          User berhasil klik download template MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.29</td>
+        <td>
+          User berhasil klik Upload MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.29</td>
+        <td>
+          User berhasil pilih product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.29</td>
+        <td>
+          User input direktori file path
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.29</td>
+        <td>
+          User input keterangan
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.30</td>
+        <td>
+          User berhasil klik submit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.32</td>
+        <td>
+          User berhasil Klik Back dari form upload
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.32</td>
+        <td>
+          User berhasil sorting data customer dari klik no.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.32</td>
+        <td>
+          User berhasil sorting data customer dari klik uploader
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.32</td>
+        <td>
+          User berhasil sorting data customer dari klik tanggal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.32</td>
+        <td>
+          User berhasil sorting data customer dari klik product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.32</td>
+        <td>
+          User berhasil sorting data customer dari klik keterangan
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.32</td>
+        <td>
+          User berhasil sorting data customer dari klik total data ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.33</td>
+        <td>
+          User berhasil pilih Jumlah Data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.42</td>
+        <td>
+          User berhasil klik Previous Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.42</td>
+        <td>
+          User berhasil klik Next Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.42</td>
+        <td>
+          User berhasil klik Nomor Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.42</td>
+        <td>
+          User berhasil Scroll Page ke atas dengan button up
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.42</td>
+        <td>
+          User berhasil mencari Data Upload File MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.43</td>
+        <td>
+          User berhasil Klik Edit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.54</td>
+        <td>
+          User berhasil Klik peruntukan spv
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.54</td>
+        <td>
+          User berhasil input search di menu pop up
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.54</td>
+        <td>
+          User berhasil pilih spv di menu pop up
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.55</td>
+        <td>
+          User berhasil Edit NIK SPV yang di perentukan
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.55</td>
+        <td>
+          User berhasil Edit nama SPV yang di perentukan
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.55</td>
+        <td>
+          User berhasil Edit file product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.55</td>
+        <td>
+          User berhasil Edit file source
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.55</td>
+        <td>
+          User berhasil Edit keterangan
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.57</td>
+        <td>
+          User berhasil Klik Submit Edit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.58</td>
+        <td>
+          User berhasil Klik Back dari edit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.05.58</td>
+        <td>
+          User berhasil Klik Hapus File
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.02</td>
+        <td>
+          User berhasil Klik View
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.03</td>
+        <td>
+          User berhasil sorting data customer di view dengan klik no.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.03</td>
+        <td>
+          User berhasil sorting data customer di view dengan klik no Case
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.03</td>
+        <td>
+          User berhasil sorting data customer di view dengan klik Cis
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.03</td>
+        <td>
+          User berhasil sorting data customer di view dengan klik Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.03</td>
+        <td>
+          User berhasil sorting data customer di view dengan klik DOB
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.03</td>
+        <td>
+          User berhasil sorting data customer di view dengan klik Gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.03</td>
+        <td>
+          User berhasil sorting data customer di view dengan klik Address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.03</td>
+        <td>
+          User berhasil sorting data customer di view dengan klik campaign
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.03</td>
+        <td>
+          User berhasil sorting data customer di view dengan klik Aggree Date
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.03</td>
+        <td>
+          User berhasil pilih Jumlah Data di view
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.12</td>
+        <td>
+          User berhasil klik Previous Page di view
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.12</td>
+        <td>
+          User berhasil klik Next Page di view
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.12</td>
+        <td>
+          User berhasil klik Nomor Page di view
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.12</td>
+        <td>
+          User berhasil mencari Data Customer di view
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.13</td>
+        <td>
+          User berhasil Klik back dari view
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.15</td>
+        <td>
+          User berhasil product di halaman Upload File MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.15</td>
+        <td>
+          User berhasil input tanggal mulai di halaman Upload File MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.15</td>
+        <td>
+          User berhasil input tanggal akhir di halaman Upload File MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.15</td>
+        <td>
+          User berhasil klik go di halaman Upload File MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.15</td>
+        <td>
+          User berhasil melakukan upload data MS dengan bukti yang mengupload sesuai
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.15</td>
+        <td>
+          User berhasil melakukan upload data MS dengan bukti tanggal sesuai
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.15</td>
+        <td>
+          User berhasil melakukan upload data MS dengan Product Sesuai
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.15</td>
+        <td>
+          User berhasil melakukan upload data MS dengan bukti Keterangan Sesuai
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.15</td>
+        <td>
+          User berhasil melakukan upload data MS dengan bukti upload total MS sesuai
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Distribusi Data</p>
+            <p class="text-sm">
+              <span>23.06.15</span> / <span>00:01:29:229</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Modul Distribusi Data</h5>
+<span class='badge badge-success'>01.25.2022 23.06.15</span>
+<span class='badge badge-danger'>01.25.2022 23.07.44</span>
+<span class='badge badge-default'>00:01:29:229</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.21</td>
+        <td>
+          User berhasil klik menu Distribusi
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.54</td>
+        <td>
+          User berhasil klik kategori Jadwal Ulang
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.54</td>
+        <td>
+          User berhasil klik kategori Gagal Pick Up
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.54</td>
+        <td>
+          User berhasil klik kategori Batal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.54</td>
+        <td>
+          User berhasil klik kategori Return to Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.54</td>
+        <td>
+          User berhasil klik kategori Uncoverage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.54</td>
+        <td>
+          User berhasil klik kategori No Status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.54</td>
+        <td>
+          User berhasil klik kategori No Respon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.54</td>
+        <td>
+          User berhasil klik kategori Resign, Terminate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.56</td>
+        <td>
+          User berhasil klik kategori Daftar Baru
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.56</td>
+        <td>
+          User berhasil pilih status distribusi
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.56</td>
+        <td>
+          User berhasil pilih Sales yang akan di distribusi
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.06.56</td>
+        <td>
+          User berhasil Pilih Filter data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.06</td>
+        <td>
+          User berhasil Pilih Tampilan Jumlah Data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.16</td>
+        <td>
+          User berhasil klik Previous Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.16</td>
+        <td>
+          User berhasil klik Next Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.16</td>
+        <td>
+          User berhasil klik Nomor Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.28</td>
+        <td>
+          User berhasil Mencari Data Customer yang ingin di pilih
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.28</td>
+        <td>
+          User berhasil Menamppilkan list customer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.28</td>
+        <td>
+          User berhasil Pilih Customer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.30</td>
+        <td>
+          User berhasil Klik submit untuk distribusi data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.44</td>
+        <td>
+          User berhasil mendistribusi data ke mobile sales dengan tampilan total in proses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.44</td>
+        <td>
+          User berhasil mendistribusi data ke mobile sales dengan tampilan Belum di pick up
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.44</td>
+        <td>
+          User berhasil mendistribusi data ke mobile sales dengan tampilan Jadwal Ulang
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Worklist</p>
+            <p class="text-sm">
+              <span>23.07.45</span> / <span>00:02:26:851</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Modul Worklist</h5>
+<span class='badge badge-success'>01.25.2022 23.07.45</span>
+<span class='badge badge-danger'>01.25.2022 23.10.11</span>
+<span class='badge badge-default'>00:02:26:851</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.07.50</td>
+        <td>
+          User berhasil klik menu Worklist
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.02</td>
+        <td>
+          User berhasil Pilih Tampilan Jumlah Data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.21</td>
+        <td>
+          User berhasil klik Previous Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.21</td>
+        <td>
+          User berhasil klik Next Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.21</td>
+        <td>
+          User berhasil klik Nomor Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.31</td>
+        <td>
+          User berhasil mencari Data Customer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.38</td>
+        <td>
+          User berhasil klik customer yang ingin di survey
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.38</td>
+        <td>
+          User berhasil pilih status pickup Sukses Pick Up
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.38</td>
+        <td>
+          User berhasil pilih kode promo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.38</td>
+        <td>
+          User berhasil isi reg id
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.38</td>
+        <td>
+          User berhasil isi note
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.39</td>
+        <td>
+          User berhasil pilih status pickup Gagal Pick Up
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.39</td>
+        <td>
+          User berhasil pilih reason dari Gagal Pick Up
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.39</td>
+        <td>
+          User berhasil isi note
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.39</td>
+        <td>
+          User berhasil pilih status pickup Batal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.39</td>
+        <td>
+          User berhasil pilih reason dari Batal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.39</td>
+        <td>
+          User berhasil isi note
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.39</td>
+        <td>
+          User berhasil pilih status pickup Jadwal Ulang
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.39</td>
+        <td>
+          User berhasil isi note
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.39</td>
+        <td>
+          User berhasil isi tanggal jadwal ulang
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.39</td>
+        <td>
+          User berhasil pilih status pickup No Respon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.40</td>
+        <td>
+          User berhasil klik back dari update status pick up
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.47</td>
+        <td>
+          User berhasil klik map customer yang ingin di tuju untuk survey
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.48</td>
+        <td>
+          User berhasil isi lokasi terkini
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.48</td>
+        <td>
+          User berhasil isi alamat tujuan
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.48</td>
+        <td>
+          User berhasil klik submit di survey
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.49</td>
+        <td>
+          User berhasil klik back dari update status pick up
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.08.58</td>
+        <td>
+          User berhasil klik survey alamat
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.09.05</td>
+        <td>
+          User berhasil klik survey alamat
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.09.37</td>
+        <td>
+          User berhasil klik Upload KTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.09.37</td>
+        <td>
+          User berhasil klik cancel Upload KTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.09.37</td>
+        <td>
+          User berhasil klik Upload NPWP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.09.37</td>
+        <td>
+          User berhasil klik cancel Upload NPWP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.09.37</td>
+        <td>
+          User berhasil klik Upload Bukti
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.09.37</td>
+        <td>
+          User berhasil klik cancel Upload Bukti
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.10</td>
+        <td>
+          User berhasil isi direktori foto KTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.10</td>
+        <td>
+          User berhasil klik simpan Upload KTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.10</td>
+        <td>
+          User berhasil isi direktori foto NPWP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.10</td>
+        <td>
+          User berhasil klik simpan Upload NPWP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.10</td>
+        <td>
+          User berhasil isi direktori foto Bukti
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.10</td>
+        <td>
+          User berhasil klik simpan Upload Bukti
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.11</td>
+        <td>
+          User berhasil survey worklist
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Completedlist Mobile Sales</p>
+            <p class="text-sm">
+              <span>23.10.12</span> / <span>00:02:17:774</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Modul Completedlist Mobile Sales</h5>
+<span class='badge badge-success'>01.25.2022 23.10.12</span>
+<span class='badge badge-danger'>01.25.2022 23.12.29</span>
+<span class='badge badge-default'>00:02:17:774</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.15</td>
+        <td>
+          User berhasil klik menu completed list di user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.27</td>
+        <td>
+          User berhasil Pilih Tampilan Jumlah Data di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.37</td>
+        <td>
+          User berhasil klik Previous Page di completed list  user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.37</td>
+        <td>
+          User berhasil klik Next Page di completed list  user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.37</td>
+        <td>
+          User berhasil klik Nomor Page di completed list  user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.47</td>
+        <td>
+          User berhasil mengisi nama customer untuk mencari Data Customer untuk di lihat di completed list user mobile sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.47</td>
+        <td>
+          User berhasil klik search untuk mencari data customer untuk di lihat di completed list user mobile sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.53</td>
+        <td>
+          User berhasil pilih product di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.53</td>
+        <td>
+          User berhasil Mengisi tanggal mulai di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.53</td>
+        <td>
+          User berhasil Mengisi tanggal akhir di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.53</td>
+        <td>
+          User berhasil klik filter di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.10.54</td>
+        <td>
+          User berhasil klik Edit di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.11.26</td>
+        <td>
+          User berhasil klik Upload KTP di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.11.26</td>
+        <td>
+          User berhasil klik cancel Upload KTP di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.11.26</td>
+        <td>
+          User berhasil klik Upload NPWP di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.11.26</td>
+        <td>
+          User berhasil klik cancel Upload NPWP di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.11.26</td>
+        <td>
+          User berhasil klik Upload Bukti di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.11.26</td>
+        <td>
+          User berhasil klik cancel Upload Bukti di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.11.37</td>
+        <td>
+          User berhasil isi direktori foto KTP di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.11.37</td>
+        <td>
+          User berhasil klik simpan Upload KTP di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.11.47</td>
+        <td>
+          User berhasil isi direktori foto NPWP di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>23.11.48</td>
+        <td>
+          User berhasil klik simpan Upload NPWP di completed list uesr Mobile Sales tetapi ada error dan perlu refresh browser
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_11_48_345.png' src="D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_11_48_345.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.05</td>
+        <td>
+          User berhasil isi direktori foto Bukti di completed list uesr Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>23.12.05</td>
+        <td>
+          User berhasil klik simpan Upload Bukti di completed list uesr Mobile Sales tetapi ada error dan perlu refresh browser
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_12_05_271.png' src="D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_12_05_271.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.12</td>
+        <td>
+          User berhasil klik kembali dari Edit di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.27</td>
+        <td>
+          User berhasil klik view di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.27</td>
+        <td>
+          User berhasil menampilkan nama customer yang dipilih di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.27</td>
+        <td>
+          User berhasil menampilkan kontak customer yang dipilih di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.27</td>
+        <td>
+          User berhasil menampilkan address customer yang dipilih di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.27</td>
+        <td>
+          User berhasil menampilkan status pick up customer yang dipilih di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.27</td>
+        <td>
+          User berhasil menampilkan foto KTP customer yang dipilih di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.27</td>
+        <td>
+          User berhasil menampilkan foto NPWP customer yang dipilih di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.27</td>
+        <td>
+          User berhasil menampilkan foto bukti customer yang dipilih di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.29</td>
+        <td>
+          User berhasil klik kembali yang ada di detail di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.29</td>
+        <td>
+          User berhasil menampilkan nama, address customer yang ada di list di completed list user Mobile Sales
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.29</td>
+        <td>
+          User berhasil menampilkan status customer yang ada di list di completed list user Mobile Sales
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Completedlist Supervisor</p>
+            <p class="text-sm">
+              <span>23.12.29</span> / <span>00:00:49:057</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Modul Completedlist Supervisor</h5>
+<span class='badge badge-success'>01.25.2022 23.12.29</span>
+<span class='badge badge-danger'>01.25.2022 23.13.18</span>
+<span class='badge badge-default'>00:00:49:057</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.36</td>
+        <td>
+          User berhasil klik menu completed list di user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.49</td>
+        <td>
+          User berhasil Pilih Tampilan Jumlah Data di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.58</td>
+        <td>
+          User berhasil klik Previous Page di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.58</td>
+        <td>
+          User berhasil klik Next Page di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.12.58</td>
+        <td>
+          User berhasil klik Nomor Page di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.09</td>
+        <td>
+          User berhasil mengisi nama customer untuk mencari Data Customer untuk di lihat di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.09</td>
+        <td>
+          User berhasil klik search untuk mencari data customer untuk di lihat di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.14</td>
+        <td>
+          User berhasil pilih product di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.14</td>
+        <td>
+          User berhasil Mengisi tanggal mulai di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.14</td>
+        <td>
+          User berhasil Mengisi tanggal akhir di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.14</td>
+        <td>
+          User berhasil klik filter di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.15</td>
+        <td>
+          User berhasil klik view di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.15</td>
+        <td>
+          User berhasil menampilkan nama customer yang dipilih di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.15</td>
+        <td>
+          User berhasil menampilkan kontak customer yang dipilih di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.15</td>
+        <td>
+          User berhasil menampilkan address customer yang dipilih di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.15</td>
+        <td>
+          User berhasil menampilkan status pick up customer yang dipilih di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.15</td>
+        <td>
+          User berhasil menampilkan foto KTP customer yang dipilih di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.15</td>
+        <td>
+          User berhasil menampilkan foto NPWP customer yang dipilih di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.15</td>
+        <td>
+          User berhasil menampilkan foto bukti customer yang dipilih di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.17</td>
+        <td>
+          User berhasil klik kembali yang ada di detail di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.18</td>
+        <td>
+          User berhasil menampilkan nama, address customer yang ada di list di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.18</td>
+        <td>
+          User berhasil menampilkan status customer yang ada di list di completed list user Supervisor
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Completedlist Super Admin</p>
+            <p class="text-sm">
+              <span>23.13.19</span> / <span>00:00:47:434</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Modul Completedlist Super Admin</h5>
+<span class='badge badge-success'>01.25.2022 23.13.19</span>
+<span class='badge badge-danger'>01.25.2022 23.14.06</span>
+<span class='badge badge-default'>00:00:47:434</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.26</td>
+        <td>
+          User berhasil klik menu completed list di user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.38</td>
+        <td>
+          User berhasil Pilih Tampilan Jumlah Data di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.48</td>
+        <td>
+          User berhasil klik Previous Page di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.48</td>
+        <td>
+          User berhasil klik Next Page di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.48</td>
+        <td>
+          User berhasil klik Nomor Page di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.58</td>
+        <td>
+          User berhasil mengisi nama customer untuk mencari Data Customer untuk di lihat di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.13.58</td>
+        <td>
+          User berhasil klik search untuk mencari data customer untuk di lihat di completed list userSuper Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.03</td>
+        <td>
+          User berhasil pilih product di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.03</td>
+        <td>
+          User berhasil Mengisi tanggal mulai di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.03</td>
+        <td>
+          User berhasil Mengisi tanggal akhir di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.03</td>
+        <td>
+          User berhasil klik filter di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.04</td>
+        <td>
+          User berhasil klik view di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.04</td>
+        <td>
+          User berhasil menampilkan nama customer yang dipilih di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.04</td>
+        <td>
+          User berhasil menampilkan kontak customer yang dipilih di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.04</td>
+        <td>
+          User berhasil menampilkan address customer yang dipilih di completed list user Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.04</td>
+        <td>
+          User berhasil menampilkan status pick up customer yang dipilih di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.04</td>
+        <td>
+          User berhasil menampilkan foto KTP customer yang dipilih di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.04</td>
+        <td>
+          User berhasil menampilkan foto NPWP customer yang dipilih di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.04</td>
+        <td>
+          User berhasil menampilkan foto bukti customer yang dipilih di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.05</td>
+        <td>
+          User berhasil klik kembali yang ada di detail di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.06</td>
+        <td>
+          User berhasil menampilkan nama, address customer yang ada di list di completed list user Super Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.06</td>
+        <td>
+          User berhasil menampilkan status customer yang ada di list di completed list user Super Admin
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Summary MS Super Admin</p>
+            <p class="text-sm">
+              <span>23.14.06</span> / <span>00:00:10:748</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Modul Summary MS Super Admin</h5>
+<span class='badge badge-success'>01.25.2022 23.14.06</span>
+<span class='badge badge-danger'>01.25.2022 23.14.17</span>
+<span class='badge badge-default'>00:00:10:748</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.06</td>
+        <td>
+          User berhasil klik Summary MS dan menampilkan form Summary MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>23.14.11</td>
+        <td>
+          Button Kembali error karena tidak kembali ke halaman sebelumnya dengan screenshot dibawah
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_14_11_891.png' src="D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_14_11_891.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.14</td>
+        <td>
+          User berhasil memilih kategori
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.14</td>
+        <td>
+          User berhasil memilih periode awal (format date)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.14</td>
+        <td>
+          User berhasil memilih periode akhir (format date)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>23.14.17</td>
+        <td>
+          User gagal menampilkan data di form Summary MS setelah klik button Go dengan screenshot dibawah
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_14_17_481.png' src="D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_14_17_481.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button uncoverage pada tabel dan menampilkan data customer di tabel uncoverage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik ikon jumlah data dan memilih jumlah data yang ditampilkan dalam satu halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button No pada judul tabel dan menampilkan data sesuai sort No
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button Keterangan pada judul tabel dan menampilkan data sesuai sort Keterangan
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik ikon Next dan menampilkan data Summary MS selanjutnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik ikon Previous dan menampilkan data Summary MS sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button list pada tabel dan menampilkan data customer di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik ikon jumlah data dan memilih jumlah data yang ditampilkan dalam satu halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button No pada judul tabel dan menampilkan data sesuai sort No
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button Peruntukan pada judul tabel dan menampilkan data sesuai sort Peruntukan
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button Total pada judul tabel dan menampilkan data sesuai sort Total
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button Sukses PU pada judul tabel dan menampilkan data sesuai sort Sukses PU
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button Gagal PU pada judul tabel dan menampilkan data sesuai sort Gagal PU
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button Cancel CS pada judul tabel dan menampilkan data sesuai sort Cancel CS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button Jadwal Ulang pada judul tabel dan menampilkan data sesuai sort Jadwal Ulang
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button No Status pada judul tabel dan menampilkan data sesuai sort No Status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik button PU Rate pada judul tabel dan menampilkan data sesuai sort PU Rate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik ikon Next dan menampilkan data Summary MS selanjutnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.17</td>
+        <td>
+          User berhasil klik ikon Previous dan menampilkan data Summary MS sebelumnya
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modul Summary MS Supervisor</p>
+            <p class="text-sm">
+              <span>23.14.17</span> / <span>00:00:26:600</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Modul Summary MS Supervisor</h5>
+<span class='badge badge-success'>01.25.2022 23.14.17</span>
+<span class='badge badge-danger'>01.25.2022 23.14.44</span>
+<span class='badge badge-default'>00:00:26:600</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.24</td>
+        <td>
+          User berhasil klik Summary MS dan menampilkan form Summary MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>23.14.29</td>
+        <td>
+          Button Kembali error karena tidak kembali ke halaman sebelumnya dengan screenshot dibawah
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_14_29_792.png' src="D:\SQA\TestingProjectMobileSales-main.zip_expanded\TestingProjectMobileSales-main\src\test\resources\foto\01_25_2022-23_14_29_792.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.32</td>
+        <td>
+          User berhasil memilih kategori
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.32</td>
+        <td>
+          User berhasil memilih periode awal (format date)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.32</td>
+        <td>
+          User berhasil memilih periode akhir (format date)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.32</td>
+        <td>
+          User berhasil klik button Go dan menampilkan data Summary MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon jumlah data dan memilih jumlah data yang ditampilkan dalam satu halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Uncoverage pada tabel dan menampilkan data customer di tabel uncoverage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Keterangan di tabel unconverage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button No pada judul tabel dan menampilkan data sesuai sort No
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Keterangan pada judul tabel dan menampilkan data sesuai sort Keterangan
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon Next dan menampilkan data sales selanjutnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon Previous dan menampilkan data sales sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button List pada tabel dan menampilkan data sales di tabel List
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Peruntukan di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Total di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Sukses PU di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Gagal PU di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Cancel CS di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Jadwal Ulang di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan No Status di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan PU Rate di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button No pada judul tabel dan menampilkan data sesuai sort No
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Peruntukan pada judul tabel dan menampilkan data sesuai sort Peruntukan
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Total pada judul tabel dan menampilkan data sesuai sort Total
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Sukses PU pada judul tabel dan menampilkan data sesuai sort Sukses PU
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Gagal PU pada judul tabel dan menampilkan data sesuai sort Gagal PU
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Cancel CS pada judul tabel dan menampilkan data sesuai sort Cancel CS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Jadwal Ulang pada judul tabel dan menampilkan data sesuai sort Jadwal Ulang
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button No Status pada judul tabel dan menampilkan data sesuai sort No Status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button PU Rate pada judul tabel dan menampilkan data sesuai sort PU Rate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon Next dan menampilkan data sales selanjutnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon Previous dan menampilkan data sales sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon Nomor Halaman dan menampilkan data sales sesuai nomor halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button detail pada tabel dan menampilkan halaman detail Summary MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button List MS pada tabel dan menampilkan data customer di tabel List MS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Nocase di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Name di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Address di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan City di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Campaign di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Status di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Type di tabel list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button No pada judul tabel dan menampilkan data sesuai sort No
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Nocase pada judul tabel dan menampilkan data sesuai sort Nocase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Name pada judul tabel dan menampilkan data sesuai sort Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Address pada judul tabel dan menampilkan data sesuai sort Address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button City pada judul tabel dan menampilkan data sesuai sort City
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Campaign pada judul tabel dan menampilkan data sesuai sort Campaign
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Status pada judul tabel dan menampilkan data sesuai sort Status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Type pada judul tabel dan menampilkan data sesuai sort Type
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon jumlah data dan memilih jumlah data yang ditampilkan dalam satu halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon Next dan menampilkan data customer selanjutnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon Previous dan menampilkan data customer sebelumnya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon Nomor Halaman dan menampilkan data sales sesuai nomor halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik search dan mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Sukses pada tabel dan menampilkan data customer di tabel Sukses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Nocase di tabel sukses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Name di tabel sukses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Address di tabel sukses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan City di tabel sukses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Campaign di tabel sukses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Type di tabel sukses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Dist Date di tabel sukses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Close Date di tabel sukses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan SLA di tabel sukses
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button No pada judul tabel dan menampilkan data sesuai sort No
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Nocase pada judul tabel dan menampilkan data sesuai sort Nocase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Name pada judul tabel dan menampilkan data sesuai sort Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Address pada judul tabel dan menampilkan data sesuai sort Address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button City pada judul tabel dan menampilkan data sesuai sort City
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Campaign pada judul tabel dan menampilkan data sesuai sort Campaign
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Type pada judul tabel dan menampilkan data sesuai sort Type
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Dist Date pada judul tabel dan menampilkan data sesuai sort Dist Date
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Close Date pada judul tabel dan menampilkan data sesuai sort Close Date
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button SLA pada judul tabel dan menampilkan data sesuai sort SLA
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik ikon jumlah data dan memilih jumlah data yang ditampilkan dalam satu halaman
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik search dan mengisi teks pencarian
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Gagal pada tabel dan menampilkan data customer di tabel Gagal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Nocase di tabel gagal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Name di tabel gagal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Address di tabel gagal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Status Gagal di tabel gagal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Pick Up Date di tabel gagal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Type di tabel gagal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Batal pada tabel dan menampilkan data customer di tabel Batal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Nocase di tabel batal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Name di tabel batal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Address di tabel batal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Status Gagal di tabel batal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Pick Up Date di tabel batal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Type di tabel batal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Reschedule pada tabel dan menampilkan data customer di tabel reschedule
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Nocase di tabel reschedule
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Name di tabel reschedule
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Address di tabel reschedule
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Post Code di tabel reschedule
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan City di tabel reschedule
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Note di tabel reschedule
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Type di tabel reschedule
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button No Status pada tabel dan menampilkan data customer di tabel no status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Nocase di tabel no status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Name di tabel no status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Address di tabel no status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Post Code di tabel no status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan City di tabel no status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Note di tabel no status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil menampilkan Type di tabel no status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik button Kembali dan menampilkan halaman Summary MS
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Testing Fungsi Download APK user Supervisor</p>
+            <p class="text-sm">
+              <span>23.14.44</span> / <span>00:00:00:409</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testing Fungsi Download APK user Supervisor</h5>
+<span class='badge badge-success'>01.25.2022 23.14.44</span>
+<span class='badge badge-danger'>01.25.2022 23.14.44</span>
+<span class='badge badge-default'>00:00:00:409</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.44</td>
+        <td>
+          User berhasil klik menu Download APK dan berhasil mengunduh aplikasi
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Testing Fungsi Download APK user Super Admin</p>
+            <p class="text-sm">
+              <span>23.14.45</span> / <span>00:00:05:529</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testing Fungsi Download APK user Super Admin</h5>
+<span class='badge badge-success'>01.25.2022 23.14.45</span>
+<span class='badge badge-danger'>01.25.2022 23.14.50</span>
+<span class='badge badge-default'>00:00:05:529</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.50</td>
+        <td>
+          User berhasil klik menu Download APK dan berhasil mengunduh aplikasi
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Testing Fungsi Download APK user Mobile Sales</p>
+            <p class="text-sm">
+              <span>23.14.50</span> / <span>00:00:04:076</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testing Fungsi Download APK user Mobile Sales</h5>
+<span class='badge badge-success'>01.25.2022 23.14.50</span>
+<span class='badge badge-danger'>01.25.2022 23.14.54</span>
+<span class='badge badge-default'>00:00:04:076</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>23.14.54</td>
+        <td>
+          User berhasil klik menu Download APK dan berhasil mengunduh aplikasi
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 25, 2022 11:03:45 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 25, 2022 11:14:54 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>12</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>5</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='70%'>
+<b>12</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='29%'><b>5</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='98%'><b>457</b> events passed</small></div>
+<div>
+<small data-tooltip='1%'><b>8</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Modul Login":7.697,"Modul Login":3.849,"Modul Login":3.849,"Modul Master User":45.649,"Modul Master Parameter Upload":28.006,"Modul Master Poster":8.486,"Modul Upload File MS":47.808,"Modul Distribusi Data":89.229,"Modul Worklist":146.851,"Modul Completedlist Mobile Sales":137.774,"Modul Completedlist Supervisor":49.057,"Modul Completedlist Super Admin":47.434,"Modul Summary MS Super Admin":10.748,"Modul Summary MS Supervisor":26.6,"Testing Fungsi Download APK user Supervisor":0.409,"Testing Fungsi Download APK user Super Admin":5.529,"Testing Fungsi Download APK user Mobile Sales":4.076
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 12,
+failParent: 5,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 457,
+failEvents: 8,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
