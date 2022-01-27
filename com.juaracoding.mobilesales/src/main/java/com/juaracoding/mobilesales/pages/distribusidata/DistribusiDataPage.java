@@ -67,6 +67,12 @@ public class DistribusiDataPage {
 
 	public void KategoriPilihan() {
 		btnClosealert();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		kategorijadwalulang.click();
 		btnClosealert();
 		kategorigagalpickup.click();
@@ -133,6 +139,12 @@ public class DistribusiDataPage {
 	}
 
 	public void pickCustomer() {
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		listcustomer.get(0).click();
 	}
 

@@ -1737,7 +1737,7 @@ public class StepDefinition {
 	public static String captureScreen() throws IOException {
 		TakesScreenshot screen = (TakesScreenshot) driver;
 		File src = screen.getScreenshotAs(OutputType.FILE);
-		String dest ="D:\\SQA\\TestingProjectMobileSales-main.zip_expanded\\TestingProjectMobileSales-main\\src\\test\\resources\\foto\\"
+		String dest ="D:\\SQA\\UpdateBaru\\com.juaracoding.mobilesales\\src\\test\\resources\\foto\\"
 		+getcurrentdateandtime()+".png";
 		File target = new File(dest);
 		FileUtils.copyFile(src, target);
