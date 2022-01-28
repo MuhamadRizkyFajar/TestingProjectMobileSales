@@ -381,6 +381,12 @@ public class WorklistPage {
 	@FindBy(css = "#maps > div > div > div > div.gm-err-message")
 	private WebElement texterrormap;
 	
+	public WebElement TextErrorMap() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();", texterrormap);
+		return texterrormap;
+	}
+	
 	public String getTexterrormap() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", texterrormap);

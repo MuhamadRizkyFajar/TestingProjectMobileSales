@@ -95,7 +95,7 @@ public class StepDefinition {
 	public void user_membuka_url() {
 		driver = DriverSingleton.getDriver();
 		driver.get(Constants.URL);
-		extentTest.pass("User membuka url " + Constants.URL);
+		extentTest.pass("User berhasil membuka url " + Constants.URL);
 	}
 
 	@When("^Mengisi username dan password login user Super Admin")
@@ -130,6 +130,7 @@ public class StepDefinition {
 	@Given("User keluar dari user Super Admin")
 	public void user_keluar_dari_user_super_admin() {
 		loginPage.Logout();
+		extentTest.pass("User berhasil membuka url " + Constants.URL);
 	}
 			
 	@When("Mengisi username dan password login user Supervisor")
@@ -164,6 +165,7 @@ public class StepDefinition {
 		@Given("User keluar dari user Supervisor")
 		public void user_keluar_dari_user_supervisor() {
 			loginPage.Logout();
+			extentTest.pass("User berhasil membuka url " + Constants.URL);
 		}
 			
 		@When("Mengisi username dan password login user Mobile Sales")
@@ -1026,7 +1028,7 @@ public class StepDefinition {
 		@When("Klik submit survey")
 		public void submitedthWorklistForm() {
 			worklist.submitSurvey();
-			if(worklist.getTexterrormap().equals(configurationProperties.getTextErrorMap())) {
+			if(worklist.TextErrorMap().isDisplayed()) {
 				try {
 					extentTest.fail("User berhasil klik submit di survey tetapi ada kesalahan teknis dengan \n"
 							+ "screenshot dibawah", 
