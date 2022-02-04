@@ -67,6 +67,20 @@
     <artifactId>cucumber-spring</artifactId>
     <version>7.1.0</version>
 </dependency>
+
+<dependency>
+	<groupId>org.projectlombok</groupId>
+	<artifactId>lombok</artifactId>
+	<version>1.18.22</version>
+	<scope>provided</scope>	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok-maven-plugin -->
+<dependency>
+	<groupId>org.projectlombok</groupId>
+	<artifactId>lombok-maven-plugin</artifactId>
+	<version>1.18.20.0</version>
+	<scope>provided</scope>
+</dependency>
+
 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
 <groupId>com.aventstack</groupId>
